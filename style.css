@@ -1,0 +1,379 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    /* Set a default background color */
+    color: black;
+    /* Set default text color */
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* Styling for the header */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.678)), url('./5.jpg') no-repeat center center/cover;
+    padding: 70px;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Styling for the navigation */
+
+
+/* Styling for the logo */
+.logo {
+    height: 80px;
+    width: auto;
+    margin-left: 80px;
+}
+
+
+.nav_items {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav_items ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_items ul li {
+    margin-left: 20px;
+
+}
+
+.nav_items ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+    justify-content: space-between;
+}
+
+.nav_items ul li a:hover {
+    color: #f0a500;
+}
+
+/* Styling for the intro text */
+.intro-text {
+    margin-top: 100px;
+    margin-left: 80px;
+    color: white;
+
+}
+
+.hello,
+.name,
+.frank {
+    font-size: 3em;
+    font-weight: bold;
+    margin-left: 20px;
+
+    line-height: 1rem;
+}
+
+.frank {
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first_para {
+    margin-left: 20px;
+}
+
+/* Styling for the description text */
+#description {
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.5;
+    color: white;
+    margin-left: 80px;
+}
+
+/* Styling for the portfolio button */
+.portfolio-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid orange;
+    background: transparent;
+    color: orange;
+    font-size: 1em;
+    /* cursor: pointer; */
+    transition: background 0.3s, color 0.3s;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+}
+
+.portfolio-btn:hover {
+    background: orange;
+    color: white;
+}
+
+
+
+
+/* About Section Styling */
+#about_section {
+
+    display: flex;
+    /* padding: 70px, 70px; */
+    /* margin: 2rem 6rem; */
+    background-color: white;
+    padding: 6rem;
+
+
+}
+
+.about_image {
+
+    display: flex;
+
+    width: 50%;
+    gap: 2rem;
+
+
+
+}
+
+
+.about_image img {
+
+    width: 120%;
+
+}
+
+.about_text {
+
+    width: 70%;
+    font-size: 24px;
+    margin-left: 80px;
+
+}
+
+.about_text h3 {
+
+    color: orange;
+}
+
+.about_text h4 {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 170%;
+}
+
+
+.about_text P {
+
+    font-size: 17px;
+}
+
+.rd-m {
+
+    background-color: orange;
+    padding: 7px 20px;
+    border-radius: 3rem;
+    border: none
+}
+
+.rd-m a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.rd-m:hover {
+
+    background-color: gray;
+
+
+}
+
+
+
+.we_serve {
+
+    margin: 2rem 6rem;
+}
+
+.we_serve_img {
+
+    display: flex;
+    gap: 3rem;
+
+
+
+}
+
+.image {
+    width: 50%;
+    line-height: 30px
+}
+
+.image img {
+
+    width: 100%;
+}
+
+/* .image h4{
+
+    font-family: 'Times New Roman', Times, serif;
+
+} */
+
+
+.we_serve h4 {
+
+    width: 100%;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.we_serve h4 {
+    color: rgb(255, 123, 0);
+
+}
+
+.we_serve h3 {
+
+    font-size: 35px;
+}
+
+
+.we_serve P {
+
+    font-size: 17px;
+    line-height: 30px;
+}
+
+
+.provide p {
+    font-size: 20px;
+    margin-top: 0;
+
+
+}
+
+
+.image a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.view_more {
+
+    text-align: center;
+    /* color: white;
+    background-color: orange;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styling for the contact section */
+#contact {
+
+    display: flex;
+    /* padding: 70px, 70px; */
+    /* margin: 2rem 6rem; */
+    background-color: white;
+    padding: 6rem;
+    /* display: flex;
+    padding: 50px 20px;
+    margin: 0 20px;
+    background-color: white;
+    border-radius: 10px;
+    color: black; */
+}
+
+.contact_text {
+
+    width: 70%;
+    font-size: 15px;
+    margin-left: 80px;
+}
+
+.contact_text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact_p {
+    /* display: flex; */
+    margin-top: 80px;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.contact_p span {
+    color: orange;
+    font-weight: bolder;
+}
+
+.map-container {
+    /* display: flex; */
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+
+/* Styling for the footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    margin-top: 20px;
+
+}
+
+.footer_button {
+
+
+    background-color: white;
+    padding: 7px 20px;
+    border-radius: 3rem;
+    border: none;
+
+}
+
+.footer_button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
